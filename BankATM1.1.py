@@ -3,7 +3,6 @@
 
 # In[ ]:
 
-
 #Funciones de interacción con el usuario.
 def bienvenida(loged,users):
     input('Presiona enter para continuar ->')
@@ -135,6 +134,8 @@ def eliminarCuenta(loged,users):
 
 # In[ ]:
 
+def cancelar():
+    pass
 
 def retirar(loged,users):
     print("Saldo actual:",users[loged[0]]['cash'])
